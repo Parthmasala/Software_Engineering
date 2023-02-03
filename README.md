@@ -25,7 +25,7 @@ run only within the institute LAN. Although this reduces security risk of the so
 large extent, care should be taken no confidential information (eg., passwords) is stored in
 plain text.
 
-    Functional Requirements:
+   ### Functional Requirements:
     1. User came to see all available books without login/signup.
     2. If the user wants to borrow that book user can log in or become a member by signup 
     3. Users can search and filter books by their name, author name, ISBN, etc.
@@ -38,7 +38,7 @@ plain text.
     10. User's password or any other credential will not be shown on the application in any form.
     
 
-    NonFunctional Requirements:
+  ### NonFunctional Requirements:
     1. Database of this application is extensive, so we need a server with a large capacity.
     2. Also, we need to back up the data so we can start with backed-up data whenever the system crashes.
     3. Website should be userfriendly
@@ -55,8 +55,21 @@ recognize key sound events of interest to this community, such as car horns and 
 where immediate alerts and continual logging are critical for the user. This app is optimized
 for Android with low-latency so that it works in real-time for use.
 
-    Scope:
-    We can target the audience of those suffering from hearing loss which is very large number. 
-    They will be able to identify critical sound occurrences using this program that calls for an immediate alarm or ongoing logging using artificial intelligence.
-    We use 
+### Scope:
+    1.We can target the audience of those suffering from hearing loss which is very large number. 
+    2.They will be able to identify critical sound occurrences using this program that calls for an immediate alarm or ongoing logging using artificial intelligence.
+    3.We use algorithm that can learn with time.
 
+### Features
+    1.Low latency allows for real-time use.
+    2.Notifies the user of arriving noises - Properly logs the recorded audio in understandable format
+    3.When the app detects the sounds of a critical scenario, it should notify the users.
+    4.Alert friends and family if a critical emergency is identified and the user doesn't respond.
+    5.The application must also execute in the background.
+
+### Non-Functional aspects
+    1.The app needs to vibrate to notify the user.
+    2.The app should be able to suggest the lanes with the least amount of traffic when you're travelling.
+    3.Through the app, users should be able to notify friends and family of their present location in case of an emergency.
+    4.Users should be able to add additional noises, and the app must be able to recognise the user from those sounds.
+    5.The app's latency should be no more than two seconds.
